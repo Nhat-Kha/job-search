@@ -10,6 +10,7 @@ import { users } from "../utils/data";
 
 function MenuList({ user, onClick }) {
   const handleLogout = () => {};
+
   return (
     <div>
       <Menu as="div" className="inline-block text-left">
