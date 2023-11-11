@@ -1,4 +1,6 @@
 import { Outlet, Navigate, Route, Routes, useLocation } from "react-router-dom";
+
+import { Footer, Navbar } from "./components";
 import {
   About,
   AuthPage,
@@ -9,10 +11,10 @@ import {
   UploadJob,
   UserProfile,
 } from "./pages";
-import { Navbar, Footer } from "./components";
+import { useSelector } from "react-redux";
 
 function Layout() {
-  const user = true;
+  const { user } = useSelector((state) => state.user);
   const location = useLocation();
 
   return user ? (
@@ -23,7 +25,7 @@ function Layout() {
 }
 
 function App() {
-  const user = {};
+  const { user } = useSelector((state) => state.user);
   return (
     <main>
       <Navbar />

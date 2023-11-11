@@ -3,13 +3,14 @@ import {
   useDispatch as useAppDispatch,
   useSelector as useAppSelector,
 } from "react-redux";
+import { rootReducer } from "./rootRedux";
 
 const store = configureStore({
-  reducer: "",
+  reducer: rootReducer,
 });
 
 const { dispatch } = store;
 const useSelector = useAppSelector;
-const useDispatch = useAppDispatch();
+const useDispatch = () => useAppDispatch();
 
 export { store, dispatch, useDispatch, useSelector };
