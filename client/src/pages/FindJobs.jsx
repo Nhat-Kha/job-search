@@ -27,7 +27,7 @@ const FindJobs = () => {
 
   const filterJobs = (val) => {
     if (filterJobTypes?.includes(val)) {
-      setFilterJobTypes(filterJobTypes.filter((el) => el != val));
+      setFilterJobTypes(filterJobTypes.filter((el) => el !== val));
     } else {
       setFilterJobTypes([...filterJobTypes, val]);
     }

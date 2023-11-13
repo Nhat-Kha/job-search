@@ -12,8 +12,10 @@ import JobImg from "./job.jpg";
 import Facebook from "./facebook.png";
 import CodeWave from "./codewave.png";
 import Logo from "./124599.jpg";
+import Github from "./github.png";
 
 export {
+  Github,
   Logo,
   CodeWave,
   NoProfile,
