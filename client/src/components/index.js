@@ -8,6 +8,7 @@ import ListBox from "./ListBox";
 import JobCard from "./JobCard";
 import Loading from "./Loading";
 import CompanyCard from "./CompanyCard";
+import JobTypes from "./JobTypes";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   JobCard,
   Loading,
   CompanyCard,
+  JobTypes,
 };
