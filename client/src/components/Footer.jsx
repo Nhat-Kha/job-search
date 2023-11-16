@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { footerLinks } from "../utils/data";
 import { Link } from "react-router-dom";
@@ -69,18 +69,31 @@ const Footer = () => {
               />
             </div>
             <span className="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
-              <a className="text-white text-xl  hover:scale-125 ease-in-out duration-300">
+              <a
+                className="text-white text-xl  hover:scale-125 ease-in-out duration-300 cursor-pointer"
+                href="https://www.facebook.com/profile.php?id=100011056752898"
+              >
                 <FaFacebookF />
               </a>
-              <a className="ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300">
-                <FaTwitter />
+              <a className="ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300 cursor-pointer">
+                <FaTwitter className="cursor-pointer" />
               </a>
-              <a className="ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300">
+              <a
+                className="ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300 cursor-pointer"
+                href="https://www.instagram.com/kha_martin/"
+              >
                 <FiInstagram />
               </a>
 
-              <a className="ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300">
+              <a className="ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300 cursor-pointer">
                 <FaLinkedinIn />
+              </a>
+
+              <a
+                className="ml-3 text-white text-xl  hover:scale-125 ease-in-out duration-300 cursor-pointer"
+                href="https://github.com/Nhat-Kha?tab=overview&from=2023-11-01&to=2023-11-16"
+              >
+                <FaGithub />
               </a>
             </span>
           </div>
@@ -91,12 +104,12 @@ const Footer = () => {
             <p className="text-gray-300 text-sm text-center sm:text-left">
               &copy; 2023 Job Search —
               <a
-                href="https://youtube.com/@CodeWaveWithAsante"
+                href="https://github.com/Nhat-Kha?tab=overview&from=2023-11-01&to=2023-11-16"
                 className="text-[#1199e7] ml-1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                @RickyNguyen
+                Ricky (Kha Nguyễn)
               </a>
             </p>
 

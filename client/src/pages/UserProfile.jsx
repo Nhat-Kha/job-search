@@ -126,7 +126,7 @@ const UserForm = ({ open, setOpen }) => {
                       </div>
                     </div>
 
-                    <TextInput
+                    <TextInput  
                       name="jobTitle"
                       label="Job Title"
                       placeholder="Software Engineer"
