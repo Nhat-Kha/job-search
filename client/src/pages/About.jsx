@@ -18,7 +18,7 @@ const About = () => {
         <img src={JobImg} alt="About" className="w-auto h-[300px]" />
       </div>
       <div className="leading-8 px-5 text-justify">
-        <p>
+        <p className="">
           Microsoft Corporation and its contributors are available at
           http://www.microsoft.com and at http://www.microsoft.com for more
           information about the contributors and contributors to the Microsoft
