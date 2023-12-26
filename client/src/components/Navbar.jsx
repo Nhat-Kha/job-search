@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { Fragment, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { BiChevronDown } from "react-icons/bi";
@@ -97,7 +98,7 @@ function MenuList({ user, onClick }) {
 }
 
 const Navbar = () => {
-  const user = useSelector((state) => state.user);
+  const user = users[1];
   const [isOpen, setIsOpen] = useState(false);
   const handleCloseNavbar = () => {
     setIsOpen((prev) => !prev);
